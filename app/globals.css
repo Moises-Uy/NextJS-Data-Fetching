@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply bg-white;
+}
+
+nav {
+  @apply pb-4  
+    flex items-start justify-between
+    my-6 mx-auto
+    max-w-4xl;
+}
+
+.container {
+  @apply text-white
+  flex align-text-top flex-col
+  my-16 mx-auto
+  max-w-4xl;
+}
+
+.container,
+small,
+h3,
+p {
+  @apply my-3;
+}
